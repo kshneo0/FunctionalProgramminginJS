@@ -124,7 +124,7 @@
 // console.log(obj3);
 
 //-----------------------------------------
-
+/*
 const arr = [3, 4, 2, 5, 1, 6];
 Object.freeze(arr); //객체를 불변으로 만든다.
 
@@ -136,7 +136,7 @@ const newNums = cloneObj(arr).sort();
 
 console.log(newNums);
 console.log(arr);
-
+*/
 //----------------------------------------
 
 // Using the spread Operator for Shallow Cloning
@@ -169,3 +169,4 @@ console.log(arr);
 // However, it is important to remember that the JSON.parse(JSON.stringify()) method is more flexible and will make sure to do deep cloning, so I usually prefer to use that method.
 
 //----------------------------------------------------------------
+
